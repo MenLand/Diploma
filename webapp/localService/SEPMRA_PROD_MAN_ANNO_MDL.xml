@@ -287,7 +287,7 @@
 				<Annotation Term="UI.DataPoint" Qualifier="Price">
 					<Record>
 						<PropertyValue Property="Value" Path="Price"/>
-						<PropertyValue Property="Title" String="Price"/>
+						<PropertyValue Property="Title" String="Цена"/>
 					</Record>
 				</Annotation>
 				<Annotation Term="UI.QuickCreateFacets">
@@ -313,7 +313,7 @@
 							<Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
 						</Record>
 						<Record Type="UI.ReferenceFacet">
-							<PropertyValue Property="Label" String="Product Description"/>
+							<PropertyValue Property="Label" String="Описание продукта"/>
 							<PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#ProductHeaderText"/>
 							<Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Medium"/>
 						</Record>
@@ -330,12 +330,12 @@
 				<Annotation Term="UI.Facets">
 					<Collection>
 						<Record Type="UI.CollectionFacet">
-							<PropertyValue Property="Label" String="Product Information"/>
+							<PropertyValue Property="Label" String="Информация о продукте"/>
 							<PropertyValue Property="ID" String="ProductCollectionFacetID"/>
 							<PropertyValue Property="Facets">
 								<Collection>
 									<Record Type="UI.ReferenceFacet">
-										<PropertyValue Property="Label" String="Technical Data"/>
+										<PropertyValue Property="Label" String="Техническая информация"/>
 										<PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#TechnicalData"/>
 										<Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
 									</Record>
@@ -344,7 +344,7 @@
 							<Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
 						</Record>
 						<Record Type="UI.ReferenceFacet">
-							<PropertyValue Property="Label" String="Reviews"/>
+							<PropertyValue Property="Label" String="Отзывы"/>
 							<PropertyValue Property="ID" String="ProductReviewFacetID"/>
 							<PropertyValue Property="Target" AnnotationPath="to_CollaborativeReviewPost/@UI.LineItem"/>
 							<Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Medium"/>
@@ -369,7 +369,7 @@
 								</Record>
 							</Collection>
 						</PropertyValue>
-						<PropertyValue Property="Label" String="Product Information"/>
+						<PropertyValue Property="Label" String="Информация о продукте"/>
 					</Record>
 				</Annotation>
 				<Annotation Term="UI.FieldGroup" Qualifier="HeaderInformation">
@@ -498,7 +498,7 @@
 								</Record>
 							</Collection>
 						</PropertyValue>
-						<PropertyValue Property="Label" String="Technical Data"/>
+						<PropertyValue Property="Label" String="Техническая информация"/>
 					</Record>
 				</Annotation>
 				<Annotation Term="UI.HeaderInfo">
@@ -767,7 +767,7 @@
 				<Annotation Term="UI.DataPoint" Qualifier="StockAvailability">
 					<Record>
 						<PropertyValue Property="Value" Path="StockAvailability"/>
-						<PropertyValue Property="Title" String="Availability"/>
+						<PropertyValue Property="Title" String="Доступность на складе"/>
 						<PropertyValue Property="Criticality" Path="StockAvailability"/>
 					</Record>
 				</Annotation>
@@ -941,7 +941,7 @@
 				<Annotation Term="UI.DataPoint" Qualifier="AverageRatingValue">
 					<Record>
 						<PropertyValue Property="Value" Path="AverageRatingValue"/>
-						<PropertyValue Property="Title" String="Average Rating"/>
+						<PropertyValue Property="Title" String="Средний рейтинг"/>
 						<PropertyValue Property="TargetValue" Decimal="5"/>
 						<PropertyValue Property="Visualization" EnumMember="UI.VisualizationType/Rating"/>
 					</Record>
@@ -966,7 +966,7 @@
 				<Annotation Term="UI.DataPoint" Qualifier="ReviewRatingValue">
 					<Record>
 						<PropertyValue Property="Value" Path="ReviewRatingValue"/>
-						<PropertyValue Property="Title" String="Rating"/>
+						<PropertyValue Property="Title" String="Рейтинг"/>
 						<PropertyValue Property="TargetValue" Decimal="5"/>
 						<PropertyValue Property="Visualization" EnumMember="UI.VisualizationType/Rating"/>
 					</Record>
