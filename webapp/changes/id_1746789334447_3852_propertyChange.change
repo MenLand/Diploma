@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1746789334447_3852_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "sap.ui.demoapps.rta.fiorielements",
+    "packageName": "",
+    "content": {
+        "property": "liveMode",
+        "newValue": true
+    },
+    "selector": {
+        "id": "sap.ui.demoapps.rta.fiorielements::sap.suite.ui.generic.template.ListReport.view.ListReport::SEPMRA_C_PD_Product--listReportFilter",
+        "idIsLocal": false,
+        "type": "sap.ui.comp.smartfilterbar.SmartFilterBar"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/sap.ui.demoapps.rta.fiorielements/changes/",
+    "projectId": "sap.ui.demoapps.rta.fiorielements",
+    "creation": 1746789334447,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "1.57.0",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "1.57.0-SNAPSHOT",
+        "to": "1.57.0-SNAPSHOT",
+        "creation": "1.57.0-SNAPSHOT"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}
